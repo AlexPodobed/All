@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Test Calc with MVC</title>
+		<link rel="stylesheet" href="css/calculator.css" >
+		<script src="js/App/CalculatorModel.js"></script>
+		<script src="js/App/CalculatorController.js"></script>
+		<script src="js/App/run.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+
+			<div class="input-place">
+				Число1 :<input type="text" id="first-number">
+				Число2 :<input type="text" id="second-number">
+			</div>
+
+			<div class="logic">
+				<div id="num-keys">
+					<span>9</span>
+					<span>8</span>
+					<span>7</span>
+					<span>6</span>
+					<span>5</span>
+					<span>4</span>
+					<span>3</span>
+					<span>2</span>
+					<span>1</span>
+					<span>0</span>
+				</div>
+
+				<div class="operation">
+					<span id="clear-number">C</span>
+					<span id="delete-number">D</span>
+					<span id="minus">-</span>
+					<span id="summ">+</span>
+					<span id="multiply">*</span>
+					<span id="devide">/</span>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="result">
+				Результат: <input type="text" id="result">
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
