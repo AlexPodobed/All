@@ -1,0 +1,25 @@
+cd D:
+cd git-hub
+cd 4.clock
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/AlexPodobed/online-watch.git
+git push -u origin master
+
+
+
+
+страница - это вид, то есть v,
+объект калькулятор - это метод - М, описываешь просто функции калькулятора там.
+А котроллер - объект, который инициализирует калькулятор и навешивает обработчики на элементы. То есть связывает М и V
+
+
+
+1 файл - содержит функцию-конструктор калькулятора
+2 файл - содержит функцию-конструктор контроллера
+3 файл - run.js инициализация объекта контроллера
+ну и html, css
+
+
+http://aukro.ua/shnur-dlya-zaryadnogo-apple-5pin-magsafe-l-i3383668948.html
